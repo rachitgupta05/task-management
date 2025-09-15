@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  base:"/daily-work-tracker"
+  base:"/task-management"
 })
