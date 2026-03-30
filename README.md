@@ -1,12 +1,111 @@
-# React + Vite
+# 📋 Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient task management application built using React. This app allows users to create, update, delete, and track their daily tasks with persistent storage using localStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 📝 Task Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ➕ Add new tasks
+* ✏️ Edit existing tasks
+* 🗑️ Delete tasks
+* ✅ Mark tasks as completed or incomplete
+
+### 💾 Data Persistence
+
+* 💾 Stores tasks in browser localStorage
+* 🔄 Automatically loads saved tasks on refresh
+
+### ⚛️ State Management
+
+* 🌐 Uses React Context API for global state handling
+* 🔄 Efficient state updates using hooks
+
+### 🎨 UI Features
+
+* 📱 Responsive layout
+* ⚡ Fast and smooth user experience
+* 🎯 Clean and minimal interface
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* Vite
+* Tailwind CSS / CSS
+* Context API
+* Local Storage
+
+---
+
+
+## 💻 Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/rachitgupta05/task-management.git
+
+cd task-management
+
+### 2. Install dependencies
+
+npm install
+
+### 3. Run the project
+
+npm run dev
+
+---
+
+## 🧠 How It Works
+
+1. User adds a task using the input form
+2. Tasks are stored in local state and localStorage
+3. User can edit, delete, or mark tasks as completed
+4. Data persists even after page refresh
+
+---
+
+## 🔐 Data Handling
+
+* All data is stored locally in the browser
+* No backend or external database used
+* No user data is shared
+
+---
+
+## 📸 Screenshots
+
+<img width="886" height="409" alt="image" src="https://github.com/user-attachments/assets/89142e9a-bdbb-4718-944a-34c8b028888f" />
+
+
+---
+
+## 🌍 Deployment
+
+* Github Pages
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 Add user authentication
+* ☁️ Add backend (Firebase / Node.js)
+* 📅 Add deadlines for tasks
+* 🏷️ Add categories or priority levels
+* 🌙 Dark mode
+
+---
+
+## 👨‍💻 Author
+
+**Rachit Gupta**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
