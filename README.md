@@ -1,4 +1,4 @@
-# 📋 Task Management App
+# 📋 Task Management System
 
 A simple and efficient task management application built using React. This app allows users to create, update, delete, and track their daily tasks with persistent storage using localStorage.
 
@@ -6,7 +6,7 @@ A simple and efficient task management application built using React. This app a
 
 ## 🚀 Features
 
-### 📝 Task Management
+### 📝 Task Management 
 
 * ➕ Add new tasks
 * ✏️ Edit existing tasks
